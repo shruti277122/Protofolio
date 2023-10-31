@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+ body{
+    background-color: rgb(3, 3, 46);
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(50, 8, 75);
+        
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+   main hr{
+    border: 0;
+    background-color: blueviolet;
+    height: 1.2px;
+    margin: 60px 84px;
+   }
+    nav ul li a:hover{
+        color: rgb(224, 109, 144);
+        font-size: 1.0rem;
+    }
+
+    .left{
+        font-size: 1.5rem;
+    }
+
+    .first{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+    }
+
+    .first > div{
+        width: 30%;
+    }
+    .leftSection{
+        font-size: 2.2rem;
+        /* margin: 70px 0; */
+        /* width: 34px; */
+    }
+    .leftSection .buttons{
+        padding: 15px;
+    }
+    .leftSection .btn{
+               padding: 12px;
+               background-color: blueviolet;
+               color: antiquewhite;
+               border: 2px solid white;
+               border-radius: 6px;
+               font-size: 20px;
+               cursor: pointer;
+    }
+
+    .rightSection img{
+        width: 80%;
+        /* background-color: brown; */
+    }
+
+    .purple{
+        color: aqua;
+    }
+
+    #element{
+       color: rgb(241, 102, 179); 
+    }
+    .text-grey{
+        color: gray;
+    }
+    .SecondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .SecondSection h1{
+        font-size: 1.9rem;
+    }
+
+    .SecondSection .box{
+        background-color: azure;
+        width: 78vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+
+    .SecondSection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: antiquewhite;
+        margin: 0 85px;
+    }
+
+    
+    .image-top{
+          width: 23px;
+          position: relative;
+          top: -32px;
+          /* left: -9px; */
+
+    }
+
+    .vertical-text{
+          position: relative; 
+          top: 75px; 
+          width: 150px;
+          font-size: 14px;
+    }
+
+    .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+    }
+    footer{
+        background-color: rgb(24, 14, 37);
+    }
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+
+    }
+    .footer ul{
+        list-style: none;
+    }
+    .footer > div{
+        width: 245px;
+
+    }
+
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
+
+    footer .first{
+        padding: 20px;
+        margin-top: 2px;
+    }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="left">Shruti Portfolio</div>
+            <div class="right">
+                <ul>
+                   <li>  <a href="/"> Home  </a></li>
+                   <li>  <a href="/"> About </a> </li>
+                   <li>  <a href="/"> Services </a> </li>
+                   <li>  <a href="/"> Projects </a></li>
+                   <li>  <a href="/"> Contact Me</a> </li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+             <div class="leftSection">
+                Hi, my name is <span class="purple">Shruti</span>
+                <div>and i'm a passionate.</div>
+                <span id="element"></span>
+                <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit GitHub</button>
+</div>
+             </div>
+             <div class="rightSection">
+                <img src="d.png" alt="">
+             </div>
+        </section>
+            <hr>
+        <section class="SecondSection">     
+            <span class ="text-grey">What I Have Done so For.</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+            <div class="vertical">
+            <img class="image-top" src="j.png" alt="">
+            <div class="vertical-text">
+                Java Developer (2010-2012)
+            </div>
+            <div class="vertical-desc">
+                Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+                It is one of the most popular programming language in the world
+                It has a large demand in the current job market
+                It is easy to learn and simple to use
+             
+           
+            </div>
+        </div>
+
+        <div class="vertical">
+            <img class="image-top" src="ht.png" alt="">
+            <div class="vertical-text">
+                HTML Developer (2012-2014)
+            </div>
+            <div class="vertical-desc">
+           An HTML developer is a professional web designer who uses HTML to create
+            website layouts based on templates and wireframes. HTML is a semantic 
+            language used to control how information on websites and in web apps.
+             
+           
+            </div>
+        </div>
+                <div class="vertical">
+                    <img class="image-top" src="p.jpg" alt="">
+                    <div class="vertical-text">
+                        PHP Developer (2014-2017)
+                    </div>
+                    <div class="vertical-desc">
+ 
+                        PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+                        PHP is compatible with almost all servers used today (Apache, IIS, etc.)
+                        PHP supports a wide range of databases
+                        PHP is free. Download it from the official PHP resource: www.php.net
+                   
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="n.png" alt="">
+                    <div class="vertical-text">
+                        Node js Developer (2017-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Node.js files contain tasks that will be executed on certain events
+                        A typical event is someone trying to access a port on the server
+                        Node.js files must be initiated on the server before having any effect
+                        Node.js files have extension ".js"
+                </div>
+            </div>
+                    <div class="vertical">
+                        <img class="image-top" src="r.png" alt="">
+                        <div class="vertical-text">
+                            React Developer (2019-2021)
+                        </div>
+                        <div class="vertical-desc">
+                            Current version of React.JS is V18.0.0 (April 2022).
+                            Initial Release to the Public (V0.3.0) was in July 2014
+                            React.JS was first used in 2011 for Facebook's Newsfeed feature.
+                            Facebook Software Engineer, Jordan Walke, created it.
+                    
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="m.png" alt="">
+                <div class="vertical-text">
+                    MySql Developer (2021-2024)
+                </div>
+                <div class="vertical-desc">
+                    Huge websites like Facebook, Twitter, Airbnb, Booking.com, Uber, GitHub, YouTube, etc.
+                        Content Management Systems like WordPress, Drupal, Joomla!, Contao, etc.
+                          A very large number of web developers around the world
+                 
+               
+                </div>
+            </div>
+    
+            
+                   
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="footer">
+        <div class="first">
+        <h3>Shruti Developer Portfolio</h3>
+    </div>
+        <div class="second">
+           <ul>
+         <li>HOME</li>
+         <li>About</li>
+         <li>Services</li>
+         <li>Contact</li>
+
+           </ul>
+        </div>
+        <div class="third">
+            <ul>
+                <li>HOME</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+       
+                  </ul>
+        </div>
+        
+        <div class="fouth">
+            <ul>
+                <li>HOME</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+       
+                  </ul>
+        </div>
+    </div>
+    <div class="footer-rights">
+       copyrights &#169; shrutiportfolio com"|All rights reserved
+    </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Graphics Desinger.','Web Designer.','Programer Anayst....'],
+          typeSpeed: 50,
+        });
+      </script>
+    </body>
+</body>
+</html>
